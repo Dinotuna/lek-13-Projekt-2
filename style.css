@@ -7,6 +7,7 @@ header > h1{
     font-family: 'Lily Script One', system-ui;
     font-size: 4rem;
     color: #00A8E8;
+    margin: 0px;
 
 }
 
@@ -32,16 +33,8 @@ header{
     justify-content: space-around;
 }
 
-.gridbox{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto auto auto auto;
-    justify-items: center;
-}
 
 section{
-    grid-column: 1/4;
-    grid-row: 1;
     background-image: url(./img/Squier.webp); 
     background-repeat: no-repeat;
     background-size: cover;
@@ -58,6 +51,13 @@ section a{
     border-radius: 15px;
     padding-left: 50px;
     padding-right: 50px;
+    justify-items: start;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto auto;
 }
 
 section h2{
@@ -65,8 +65,8 @@ section h2{
 }
 
 .sectiontext{
-    margin-top: 50px;
-    margin-left: 100px;
+    padding: 50px;
+    margin-left: 55px;
 }
 
 
@@ -79,6 +79,8 @@ section h2{
     width: 312px;
     height: 182px;
     border-radius: 5px;
+    justify-self: center;
+    margin-top: 74px;
 }
 
 .rubrik1 h3{
@@ -94,6 +96,8 @@ section h2{
     width: 312px;
     height: 182px;
     border-radius: 5px;
+    justify-self: center;
+    margin-top: 74px;
 }
 
 .rubrik2 h3{
@@ -109,6 +113,8 @@ section h2{
     width: 312px;
     height: 182px;
     border-radius: 5px;
+    justify-self: center;
+    margin-top: 74px;
 }
 
 .rubrik3 h3{
