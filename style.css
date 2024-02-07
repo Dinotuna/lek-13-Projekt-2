@@ -150,7 +150,45 @@ section h2{
 
 #gitarrrubrik{
     grid-column: 1/2;
+    grid-row: 3;
     text-align: center;
     font-size: 1.5rem;
     margin-left: 35px;
 }
+
+.gitarrcontainer{
+    grid-column: 1/4;
+    grid-row: 4;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 1.25rem;
+}
+
+.gitarrcontainer img{
+    object-fit: cover;
+    width: 312px;
+    height: 364px;
+    border-radius: 5px;
+}
+
+.gitarrcontainer h5{
+    margin-top: 10px;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #00171F;
+}
+
+footer h6{
+    font-size: 2rem;
+}
+
+.footerrubrik{
+    color: white;
+}
+
+
