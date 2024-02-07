@@ -1,0 +1,39 @@
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0px;
+    font-weight: normal;
+}
+
+header > h1{
+    font-family: 'Lily Script One', system-ui;
+    font-size: 4rem;
+    color: #00A8E8;
+    margin: 0px;
+
+}
+
+header > a{
+    font-size: 1rem;
+    text-decoration: none;
+    color: white;
+    background-color: #00A8E8;
+    width: 106px;
+    height: 33px;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 16px;
+    padding-right: 15px;
+    padding-left: 15px;
+
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 24px solid #00A8E8;
+}
+
+
+
