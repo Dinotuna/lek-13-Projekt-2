@@ -1,7 +1,7 @@
 body{
     font-family: 'Josefin Sans', sans-serif;
     margin: 0px;
-    font-weight: normal;
+    font-weight: 700;
 }
 
 header > h1{
@@ -23,7 +23,6 @@ header > a{
     padding-top: 16px;
     padding-right: 15px;
     padding-left: 15px;
-    font-weight: 700;
 }
 
 header{
@@ -52,6 +51,7 @@ main{
     width: 310px;
     background-color: #CAF0F8;
     margin-bottom: 33px;
+    font-weight: 400;
 }
 
 .produkt img{
@@ -82,3 +82,19 @@ main{
     background-color: #CAF0F8;
     margin-bottom: 33px;
 }
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #00171F;
+}
+
+footer h6{
+    font-size: 2rem;
+}
+
+.footerrubrik{
+    color: white;
+}
+
