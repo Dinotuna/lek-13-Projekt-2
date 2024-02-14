@@ -12,17 +12,7 @@ header > h1{
 }
 
 header > a{
-    font-size: 1rem;
-    text-decoration: none;
-    color: white;
-    background-color: #00A8E8;
-    width: 106px;
-    height: 33px;
-    border-radius: 10px;
-    text-align: center;
-    padding-top: 16px;
-    padding-right: 15px;
-    padding-left: 15px;
+    display: none;
 }
 
 header{
@@ -114,13 +104,7 @@ footer h6{
     }
 
     header > a{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 0.75rem;
-        width: 73px;
-        height: 33px;
-        padding: 0px;
+        display: none;
     }
 
     main{
@@ -137,5 +121,35 @@ footer h6{
         display: grid;
         grid-template-columns: 1fr 1fr;
         justify-items: center;
+    }
+}
+
+/* Mobil layout om bredden är under 640px */
+
+@media screen  and (max-width: 640px) {
+    
+    main{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+    }
+
+    header h1{
+        font-size: 2rem;
+    }
+
+    .varukorgen{
+        grid-row: 1;
+    }
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footerrubrik{
+        width: 367px;
+        text-align: center;
     }
 }
