@@ -46,6 +46,7 @@ main{
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    align-content: center;
     text-align: center;
     height: 875px;
     width: 310px;

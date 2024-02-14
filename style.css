@@ -12,6 +12,9 @@ header > h1{
 }
 
 header > a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 1rem;
     text-decoration: none;
     color: white;
@@ -20,9 +23,8 @@ header > a{
     height: 33px;
     border-radius: 10px;
     text-align: center;
-    padding-top: 16px;
-    padding-right: 15px;
-    padding-left: 15px;
+    padding: 10px;
+
 
 }
 
@@ -44,14 +46,17 @@ section{
 }
 
 section a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-decoration: none;
     color: white;
     background-color: #00171F;
-    padding: 10px;
     border-radius: 15px;
-    padding-left: 50px;
-    padding-right: 50px;
     justify-items: start;
+    width: 90px;
+    height: 24px;
+    padding: 5px;
 }
 
 main{
@@ -191,4 +196,132 @@ footer h6{
     color: white;
 }
 
+#rubriknyheter{
+    display: none;
+}
+
+/* Tablet layout om bredden är mellan 641px och 1007px */
+@media screen and (min-width: 641px) and (max-width: 1007px) {
+    
+    header{
+        margin: 20px;
+    }
+
+    header > h1{
+        font-size: 2.5rem;
+    }
+
+    header > a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 0.75rem;
+        width: 73px;
+        height: 33px;
+        padding-top: 0px;
+        padding-right: 0px;
+        padding-left: 0px
+    }
+
+    section{
+        height: 263px;
+        font-size: 0.75rem;
+    }
+
+    section h2{
+        font-size: 2rem;
+        margin: 0px;
+        margin-bottom: 5px;
+    }
+
+    section a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90px;
+        height: 24px;
+        padding: 0px;
+    }
+
+    main{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto auto;
+    }
+
+    .info1{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column: 1/2;
+        grid-row: 1;
+        grid-template-rows: auto auto;
+        width: 776px;
+        height: 330px;
+        background-color: #CAF0F8;
+        align-items: center;
+        justify-items: center;
+        border-radius: 5px;
+    }
+    
+    #rubrik1{
+        grid-column: 1/2;
+    }
+
+    .inforubrik1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 312px;
+        height: 136px;
+        font-size: 1rem;
+    }
+
+    .inforubrik1 h3{
+        font-size: 2rem;
+        margin: 0px;
+        margin-top: 10px;
+    }
+
+    #rubriknyheter{
+        grid-column: 1/2;
+        grid-row: 2;
+        font-size: 1.5rem;
+    }
+
+    .info2{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto;
+        grid-column: 1/2;
+        grid-row: 3;
+        background-color: #CAF0F8;
+        width: 776px;
+        height: 985px;
+        align-items: center;
+        justify-items: center;
+        border-radius: 5px;
+    }
+
+    .inforubrik2{
+        margin: 20px;
+    }
+    
+
+    #gitarrrubrik{
+        grid-column: 1/2;
+        grid-row: 4;
+        font-size: 1.5rem;
+    }
+
+    .gitarrcontainer{
+        grid-column: 1/2;
+        grid-row: 5;
+    }
+
+
+    
+
+    
+    
+}
 
