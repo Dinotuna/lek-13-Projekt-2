@@ -338,3 +338,133 @@ footer h6{
     
 }
 
+/* Mobil layout om bredden är under 640px */
+
+@media screen  and (max-width: 640px){
+
+
+    .huvud{
+        display: flex;
+        flex-direction: column;
+        background-image: url(./img/Squier.webp);
+        mix-blend-mode: normal;
+        box-shadow: inset 0px -150px 50px #000000;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        align-items: center;
+        height: 385px;
+    }
+
+    header{
+        display: block;
+    }
+
+    header > h1{
+        font-size: 2.5rem;
+        text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    header > a{
+        display: none;
+    }
+
+    section{
+        background-image: none;
+    }
+
+    .sectiontext{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: 0px;
+        margin-top: 170px;
+        padding: 0px;
+        font-size: 0.75rem;
+        text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .sectiontext h2{
+        font-size: 2rem;
+        margin: 5px;
+    }
+
+    .sectiontext p{
+        margin: 5px;
+    }
+
+    main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        gap: 22px;
+    }
+
+    #rubriknyheter{
+        display: block;
+        font-size: 1.5rem;
+    }
+
+    .inforubrik1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 367px;
+        height: 136px;
+        font-size: 1rem;
+    }
+
+    .inforubrik1 h3{
+        font-size: 2rem;
+        margin-bottom: 0px;
+    }
+
+    .info2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 22px;
+    }
+
+    .inforubrik2{
+        width: 367px;
+    }
+
+    .inforubrik2 img{
+        width: 367px;
+    }
+
+    .gitarrcontainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 367px;
+    }
+
+    .gitarrcontainer img{
+        width: 367px;
+    }
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footerrubrik{
+        width: 367px;
+        text-align: center;
+    }
+
+    
+}
+
