@@ -39,6 +39,7 @@ main{
     grid-template-rows: auto auto auto auto auto;
     margin: 73px;
     margin-top: 40px;
+    justify-items: center;
 }
 
 .produkt{
@@ -53,6 +54,7 @@ main{
     background-color: #CAF0F8;
     margin-bottom: 33px;
     font-weight: 400;
+    border-radius: 5px;
 }
 
 .produkt img{
@@ -82,6 +84,7 @@ main{
     width: 310px;
     background-color: #CAF0F8;
     margin-bottom: 33px;
+    border-radius: 5px;
 }
 
 footer{
