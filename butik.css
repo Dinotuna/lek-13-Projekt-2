@@ -102,3 +102,40 @@ footer h6{
     color: white;
 }
 
+/* Tablet layout om bredden är mellan 641px och 1007px */
+@media screen and (min-width: 641px) and (max-width: 1007px){
+
+    header{
+        margin: 0px;
+    }
+
+    header > h1{
+        font-size: 2.5rem;
+    }
+
+    header > a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 0.75rem;
+        width: 73px;
+        height: 33px;
+        padding: 0px;
+    }
+
+    main{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .varukorgen{
+        grid-column: 2 / 2;
+        grid-row: 1;
+    }
+
+    footer{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+    }
+}
