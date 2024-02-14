@@ -9,7 +9,6 @@ header > h1{
     font-size: 4rem;
     color: #00A8E8;
     margin: 0px;
-
 }
 
 header > a{
@@ -24,7 +23,7 @@ header > a{
     padding-top: 16px;
     padding-right: 15px;
     padding-left: 15px;
-
+    font-weight: 700;
 }
 
 header{
@@ -35,5 +34,51 @@ header{
     border-bottom: 24px solid #00A8E8;
 }
 
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto auto auto;
+    margin: 73px;
+    margin-top: 40px;
+}
 
+.produkt{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 875px;
+    width: 310px;
+    background-color: #CAF0F8;
+    margin-bottom: 33px;
+}
 
+.produkt img{
+    height: 680px;
+    width: 290px;
+    object-fit: cover;
+}
+
+.produkt b{
+    font-size: 1.25rem;
+}
+
+.produkt button{
+    width: 193px;
+    height: 50px;
+    background-color: #003459;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1rem;
+    border: none;
+}
+
+.varukorgen{
+    text-align: center;
+    text-decoration: underline;
+    height: 875px;
+    width: 310px;
+    background-color: #CAF0F8;
+    margin-bottom: 33px;
+}
