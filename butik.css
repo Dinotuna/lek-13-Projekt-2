@@ -9,10 +9,16 @@ header > h1{
     font-size: 4rem;
     color: #00A8E8;
     margin: 0px;
+    text-decoration: none;
 }
 
 header > a{
-    display: none;
+    text-decoration: none;
+}
+
+#h1 a{
+    text-decoration: none;
+    color: #00A8E8;
 }
 
 header{
