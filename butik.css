@@ -83,6 +83,8 @@ main{
     border-radius: 5px;
 }
 
+
+
 footer{
     display: flex;
     flex-direction: row;
@@ -97,6 +99,7 @@ footer h6{
 .footerrubrik{
     color: white;
 }
+
 
 /* Tablet layout om bredden är mellan 641px och 1007px */
 @media screen and (min-width: 641px) and (max-width: 1007px){
