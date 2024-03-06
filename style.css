@@ -183,6 +183,9 @@ section h2{
 
 .bildcontainer{
     overflow: hidden;
+    width: 312px;
+    height: 364px;
+    border-radius: 5px;
 }
 
 .gitarrcontainer img{

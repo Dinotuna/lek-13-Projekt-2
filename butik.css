@@ -71,11 +71,11 @@ main{
     font-family: 'Josefin Sans', sans-serif;
     font-size: 1rem;
     border: none;
+    cursor: pointer;
 }
 
 .varukorgen{
     text-align: center;
-    text-decoration: underline;
     height: 875px;
     width: 310px;
     background-color: #CAF0F8;
@@ -83,6 +83,13 @@ main{
     border-radius: 5px;
 }
 
+.varukorgen h2{
+    text-decoration: underline;
+}
+
+.varukorgen p{
+    text-decoration: underline;
+}
 
 
 footer{
@@ -96,9 +103,28 @@ footer h6{
     font-size: 2rem;
 }
 
+
 .footerrubrik{
     color: white;
 }
+
+li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+li button{
+    font-weight: bold;
+    background-color: #003459;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    border: none;
+    text-decoration: none;
+    padding: 5px;
+    cursor: pointer;
+}
+
 
 
 /* Tablet layout om bredden är mellan 641px och 1007px */
